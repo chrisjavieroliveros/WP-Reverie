@@ -1,0 +1,42 @@
+$typography: (
+  "global-font": '"Roboto", Helvetica, Arial, sans-serif',
+  "global-font-size": 16px,
+  "global-line-height": 1.6,
+  "global-font-weight": 300,
+
+  // Paragraph;
+  "paragraph-margin": 0 0 1.5em 0,
+
+  // Link;
+  "link-font-size": 16px,
+  "link-font-weight": 300,
+
+  // Heading;
+  "heading-font": '"Roboto", Helvetica, Arial, sans-serif',
+  "heading-font-weight": 700,
+  "heading-line-height": 1.2,
+  "heading-margin": 1em 0 0.5em 0,
+
+  // Heading Sizes: lg
+  "heading-1-lg": 2.5em,
+  "heading-2-lg": 2.25em,
+  "heading-3-lg": 2em,
+  "heading-4-lg": 1.75em,
+  "heading-5-lg": 1.5em,
+  "heading-6-lg": 1.25em,
+
+  // Heading Sizes: md
+  "heading-1-md": 2em,
+  "heading-2-md": 1.75em,
+  "heading-3-md": 1.5em,
+  "heading-4-md": 1.25em,
+  "heading-5-md": 1.1em,
+  "heading-6-md": 1em,
+);
+
+// Generate CSS Variables based on the typography map;
+:root {
+  @each $typographyProperty, $typographyValue in $typography {
+    --reverie-typography-#{$typographyProperty}: #{"#{$typographyValue}"};
+  }
+}

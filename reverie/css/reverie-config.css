@@ -69,3 +69,29 @@
   --reverie-color-Dark-900: #101010;
   --reverie-color-Dark-950: #080808;
 }
+
+:root {
+  --reverie-typography-global-font: "Roboto", Helvetica, Arial, sans-serif;
+  --reverie-typography-global-font-size: 16px;
+  --reverie-typography-global-line-height: 1.6;
+  --reverie-typography-global-font-weight: 300;
+  --reverie-typography-paragraph-margin: 0 0 1.5em 0;
+  --reverie-typography-link-font-size: 16px;
+  --reverie-typography-link-font-weight: 300;
+  --reverie-typography-heading-font: "Roboto", Helvetica, Arial, sans-serif;
+  --reverie-typography-heading-font-weight: 700;
+  --reverie-typography-heading-line-height: 1.2;
+  --reverie-typography-heading-margin: 1em 0 0.5em 0;
+  --reverie-typography-heading-1-lg: 2.5em;
+  --reverie-typography-heading-2-lg: 2.25em;
+  --reverie-typography-heading-3-lg: 2em;
+  --reverie-typography-heading-4-lg: 1.75em;
+  --reverie-typography-heading-5-lg: 1.5em;
+  --reverie-typography-heading-6-lg: 1.25em;
+  --reverie-typography-heading-1-md: 2em;
+  --reverie-typography-heading-2-md: 1.75em;
+  --reverie-typography-heading-3-md: 1.5em;
+  --reverie-typography-heading-4-md: 1.25em;
+  --reverie-typography-heading-5-md: 1.1em;
+  --reverie-typography-heading-6-md: 1em;
+}
